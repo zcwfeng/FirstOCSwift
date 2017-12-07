@@ -7,15 +7,25 @@
 //
 
 import UIKit
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    var window: UIWindow!
+//    var rootViewController:ViewController!
+   
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        
+        
+        self.window?.backgroundColor = UIColor.white
+        let firstVC = ViewController(nibName:nil,bundle: nil)
+        let navigation = UINavigationController(rootViewController: firstVC)
+        self.window?.rootViewController = navigation;
+        
+        
+        
         return true
     }
 

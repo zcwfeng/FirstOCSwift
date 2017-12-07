@@ -14,6 +14,7 @@
 		0123A7AF1FD838850023484B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0123A7AD1FD838850023484B /* LaunchScreen.storyboard */; };
 		0123A7BA1FD838850023484B /* FirstOCSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123A7B91FD838850023484B /* FirstOCSwiftTests.swift */; };
 		0123A7C51FD838850023484B /* FirstOCSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0123A7C41FD838850023484B /* FirstOCSwiftUITests.swift */; };
+		013D8E181FD8D952004DF397 /* ViewControllerSecend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D8E171FD8D952004DF397 /* ViewControllerSecend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0123A7C01FD838850023484B /* FirstOCSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstOCSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0123A7C41FD838850023484B /* FirstOCSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOCSwiftUITests.swift; sourceTree = "<group>"; };
 		0123A7C61FD838850023484B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013D8E171FD8D952004DF397 /* ViewControllerSecend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSecend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0123A7AB1FD838850023484B /* Assets.xcassets */,
 				0123A7AD1FD838850023484B /* LaunchScreen.storyboard */,
 				0123A7B01FD838850023484B /* Info.plist */,
+				013D8E171FD8D952004DF397 /* ViewControllerSecend.swift */,
 			);
 			path = FirstOCSwift;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013D8E181FD8D952004DF397 /* ViewControllerSecend.swift in Sources */,
 				0123A7A71FD838850023484B /* ViewController.swift in Sources */,
 				0123A7A51FD838850023484B /* AppDelegate.swift in Sources */,
 			);
